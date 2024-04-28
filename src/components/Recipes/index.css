@@ -1,0 +1,32 @@
+.recipes{
+    background-image: url("https://i.ibb.co/yqd77Dr/top-view-raw-dough-pasta-with-different-seasonings-brown-wooden-background-dough-food-pasta-meal-1.jpg");
+    height: 150vh;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    @media(max-width :576px){
+        height: 118vh;
+    }
+    @media (min-width:786px) and (max-width :992px){
+        height: 110vh;
+    }
+    @media (min-width:1600px){
+        height: 135vh;
+    }
+}
+
+.recipe-head{
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Kalam";
+}
+
+.categories-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}

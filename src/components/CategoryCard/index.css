@@ -1,0 +1,47 @@
+.category-card{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    box-shadow: #fff 0px 30px 60px -12px inset, #fff 0px 18px 36px -18px inset;
+    width: 90%;
+    cursor: pointer;
+    @media(max-width :576px){
+        width: 80%;
+    }
+    @media (min-width:786px) and (max-width :992px){
+        
+    }
+}
+
+.category-card-image{
+    height: 12.5rem;
+    width: 25rem;
+    object-fit: cover;
+    animation: jumps 2s ease-in-out;
+    animation-iteration-count: infinite;
+    border-radius: 0.8rem;
+    @media(max-width:576px){
+        height: 6rem;
+        width: 12.5rem;
+    }
+}
+
+.category-card-name{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Kalam";
+    color: #fff;
+    @media(max-width :576px){
+        font-size: 1rem;
+    }
+}
+
+.link{
+    text-decoration: none;
+}

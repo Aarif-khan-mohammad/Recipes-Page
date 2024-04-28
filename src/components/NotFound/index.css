@@ -1,0 +1,81 @@
+.not-found{
+    background-image: url("https://i.ibb.co/Qjr3vkG/notfound.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.not-found-container{
+    background-color: #3C5B6F;
+    padding: 2rem;
+
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 62rem;
+    margin-top: 13.2rem;
+    animation: jumps 2s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+.not-found-text{
+    color: #fff;
+    font-size: 8rem;
+    font-weight: 700;
+    font-family: "Micro 5", sans-serif;
+    margin-left: 3rem;
+}
+
+.error{
+    color: #fff;
+    font-size: 10rem;
+    font-weight: 700;
+    font-family: "Micro 5", sans-serif;
+    margin-left: 3rem;
+}
+
+.error1{
+    color: #fff;
+    font-size: 10rem;
+    font-weight: 700;
+    font-family: "Micro 5", sans-serif;
+}
+
+.bowl{
+    height: 5rem;
+    border-radius: 50%;
+    margin: 0 2rem 0 2rem;
+}
+
+
+@keyframes jumps {
+    0%{
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+        -moz-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+        -o-transform: translateY(5px);
+}
+    50%{
+        transform: translateY(-5px);
+        -webkit-transform: translateY(-5px);
+        -moz-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+        -o-transform: translateY(-5px);
+}
+    100%{
+        transform: translateY(5px);
+        -webkit-transform: translateY(5px);
+        -moz-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+        -o-transform: translateY(5px);
+}
+}

@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 0 3rem 0 2rem;
+    background-color: transparent;
+    height: 5rem;
+    animation: appear 2s ease-in-out;
+    border-bottom: 2px solid #bfe4b2;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+ 
+   
+}
+
+.logo{
+    height: 4rem;
+    @media(max-width :576px){
+        height: 2rem;
+    }
+}
+
+.page-list{
+    list-style: none;
+    gap: 4rem;
+    display: flex;
+    margin-left: auto;
+    @media(max-width :576px){
+        gap: 1rem;
+    }
+}
+
+
+.item{
+    text-decoration: none;
+    color: yellow;
+    font-family: "Kalam";
+    font-size: 1.2rem;
+    border: 2px solid #FF6500;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+@keyframes appear {
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.item:hover{
+    background-color: #FF6500;
+    color: #3C5B6F;
+    transition: 0.5s;
+}

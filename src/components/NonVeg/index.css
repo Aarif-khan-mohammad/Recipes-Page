@@ -1,0 +1,122 @@
+.main-container{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-bottom: 2rem;
+    overflow-x: hidden;
+}
+
+.item-card-heading{
+    color: #fff;
+    font-family: "Sedan";
+    margin-top: 7rem;
+    margin-left: 4rem;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+
+.item-card-list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 2rem;
+    padding-bottom: 2rem;
+    @media(max-width :576px){
+        display: flex;
+        flex-direction: column;
+    }
+    @media (min-width:786px) and (max-width :992px){
+        display: flex;
+        flex-direction: column;
+    }
+    @media (min-width:1600px){
+        grid-template-columns: auto auto auto;
+    }
+}
+.item-card-img{
+    height: 15rem;
+    width: 80%;
+    object-fit: cover;
+    margin-top: 2rem;
+    @media(max-width :576px){
+        height: 10rem;
+        width: 50%;
+    }
+    @media (min-width:786px) and (max-width :992px){
+        height: 20rem;
+        width: 75%;
+    }
+    
+}
+.item-card{
+    border-radius: 1rem;
+    padding: 0 0 1rem 0;
+    margin-left: 1.6rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    box-shadow: #fff 0px 30px 60px -12px inset, #fff 0px 18px 36px -18px inset;
+    height: 98%;
+    cursor: pointer;
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @media(max-width :576px){
+        width: 21rem;
+        margin-left: 0;
+    }
+    @media (min-width:786px) and (max-width :992px){
+        width: 85%;
+    }
+    &:hover{
+        scale: 0.8;
+        transition: 1s;
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        -ms-transition: 1s;
+        -o-transition: 1s;
+}
+
+}
+
+.item-card-title{
+    color: #fff;
+    font-family: "Sedan";
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.context{
+    color: #fff;
+    font-family: "Sedan";
+    font-size: 1rem;
+    align-self: flex-start;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+
+.des_head{
+    color: #fff;
+    font-family: "Sedan";
+    font-size: 1.2rem;
+    align-self: flex-start;
+    margin-left: 3rem;
+    text-decoration: underline;
+}
+
+.items-container{
+    background-color: black;
+    height: 100%;
+    padding-bottom: 2rem;
+}

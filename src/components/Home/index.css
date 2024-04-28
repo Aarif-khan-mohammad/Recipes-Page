@@ -1,0 +1,73 @@
+.video-bg{
+    height: 110vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.top-container{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container{
+    width: 50%;
+    height: 50%;
+    border-radius: 2.5rem;
+    background-color: #4F6F52;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    opacity: 0.5;
+    font-family: "Lugrasimo", cursive;
+    @media(max-width :576px){
+        height: 70%;
+        width: 70%;
+    }
+    
+}
+
+.intro-head{
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    @media(max-width :576px){
+        width: 100%;
+        font-size: 1rem;
+    }
+    
+}
+
+.intro-para{
+    width: 90%;
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    @media(max-width :576px){
+        font-size: 0.7rem;
+    }
+}
+
+.text-container:hover{
+    opacity: 1;
+    border: 2px solid #4F6F52;
+    background-color: transparent;
+
+    .intro-head{
+        background-color: #4F6F52;
+        opacity: 0.5;
+    }
+    .intro-para{
+        background-color: #4F6F52;
+        opacity: 0.5;
+    }
+}
+
