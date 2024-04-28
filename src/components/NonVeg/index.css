@@ -73,8 +73,9 @@
     justify-content: center;
     align-items: center;
     @media(max-width :576px){
-        width: 21rem;
+        width: 92%;
         margin-left: 0;
+        
     }
     @media (min-width:786px) and (max-width :992px){
         width: 85%;
